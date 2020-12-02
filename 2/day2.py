@@ -25,11 +25,9 @@ def count_valid_passwords(input_txt):
     for item in input_txt:
         policy, password = item.split(": ")
         letter = policy[-1]
-        min_quantity, max_quantity = [
-            int(item) for item in policy.split(" ")[0].split("-")
-        ]
+        min_quant, max_quant = [int(item) for item in policy.split(" ")[0].split("-")]
 
-        if password.count(letter) in range(min_quantity, max_quantity + 1):
+        if password.count(letter) in range(min_quant, max_quant + 1):
             valids += 1
     return valids
 

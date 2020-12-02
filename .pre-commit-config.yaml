@@ -7,7 +7,7 @@ repos:
       - id: check-merge-conflict
       - id: detect-private-key
       - id: requirements-txt-fixer
-
+      
   # black: python code formatting
   - repo: https://github.com/psf/black
     rev: 20.8b1
@@ -20,7 +20,7 @@ repos:
     hooks:
       - id: zimports
 
-  # python linting
+  # python linting and testing
   - repo: local
     hooks:
       - id: pylint
@@ -32,3 +32,9 @@ repos:
           - --max-line-length=89
           - --disable=C0114 # missing-module-docstring convention
           - --argument-rgx=[a-z0-9_]{1,30}$
+      - id: pytest
+        name: pytest
+        entry: pytest -v
+        language: system
+        types: [python]
+
