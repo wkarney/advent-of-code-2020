@@ -8,8 +8,8 @@ $cd 1; python day1.py
 ```
 
 * [Day 1: Report Repair](./1) 
-* [Day 2: ](./2)
-* [Day 3: ](./3)
+* [Day 2: Password Philosophy](./2)
+* [Day 3: Toboggan Trajectory](./3)
 * [Day 4: ](./4)
 * [Day 5: ](./5)
 * [Day 6: ](./6)
