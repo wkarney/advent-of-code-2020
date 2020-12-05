@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-Advent of Code 2020, day 3
+Advent of Code 2020, day 5
 Will Karnasiewicz
 """
 
@@ -11,12 +11,14 @@ def bp_to_seat_id(boarding_pass):
 
     Parameters
     ----------
-    input_txt : list of strings
+    input_txt : list of strings of the following form:
+    7 characters of either "F" or "B" representing rows 0-127, and
+    3 characters of either "L" or "R" representing columns 0-7.
 
     Returns
     -------
     int
-        The number of trees encountered in your journey
+        The seat id of the seat specified by the boarding pass.
     """
     boarding_pass = (
         boarding_pass.replace("F", "0")
