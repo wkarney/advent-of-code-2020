@@ -12,7 +12,7 @@ import re
 # Part 1
 def count_sum_of_unique_yes_answers(input_txt):
     """Function for calculating sum of questions to which someone in a group
-    answered "yes" on customs form from AoC 2020 Day 6 Part 2
+    answered "yes" on customs form from AoC 2020 Day 6 Part 1
 
     Parameters
     ----------

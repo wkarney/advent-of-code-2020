@@ -26,6 +26,9 @@ def bp_to_seat_id(boarding_pass):
         .replace("L", "0")
         .replace("R", "1")
     )
+    # The following could be simplified even further into just one binary calculation
+    # since the formula for seat_id is the just a binary shift
+    # return int(boarding_pass, 2)
     row, col = int(boarding_pass[0:7], 2), int(boarding_pass[7:], 2)
     return row * 8 + col
 
