@@ -12,7 +12,7 @@ $cd 1; python day1.py
 * [Day 3: Toboggan Trajectory](./3)
 * [Day 4: Passport Processing](./4)
 * [Day 5: Binary Boarding](./5)
-* [Day 6: ](./6)
+* [Day 6: Custom Customs](./6)
 * [Day 7: ](./7)
 * [Day 8: ](./8)
 * [Day 9: ](./9)
