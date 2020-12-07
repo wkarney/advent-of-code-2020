@@ -1,11 +1,12 @@
 ## Advent of Code: 2020
 
-#### Python 🐍
+Using ... **Python** 🐍
 
 To run a day's code, move into the specific day's directory and run the python file. e.g. for day 1: <br>
 ```console
 $cd 1; python day1.py
 ```
+### Links to Daily Puzzles:
 
 * [Day 1: Report Repair](./1) 
 * [Day 2: Password Philosophy](./2)

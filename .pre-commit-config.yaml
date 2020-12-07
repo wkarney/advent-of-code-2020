@@ -31,6 +31,8 @@ repos:
         args:
           - --max-line-length=89
           - --disable=C0114 # missing-module-docstring convention
+          - --disable=R0911 # sometimes you need really ugly code (too many returns)
+          - --disable=R0912 # sometimes you need really ugly code (too many branches)
           - --argument-rgx=[a-z0-9_]{1,30}$
       - id: pytest
         name: pytest
