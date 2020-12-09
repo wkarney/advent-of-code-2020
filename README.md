@@ -16,7 +16,7 @@ $cd 1; python day1.py
 * [Day 6: Custom Customs](./6)
 * [Day 7: Handy Haversacks](./7)
 * [Day 8: Handheld Halting](./8)
-* [Day 9: ](./9)
+* [Day 9: Encoding Error](./9)
 * [Day 10: ](./10)
 * [Day 11: ](./11)
 * [Day 12: ](./12)

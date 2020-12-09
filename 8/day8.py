@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-Advent of Code 2020, day 6
+Advent of Code 2020, day 8
 Will Karnasiewicz
 """
 
